@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsividade.css">
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="style/own/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/own/owl.theme.default.css">
+
+    <script src="js/filmes.js"></script>
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>    
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="assistirAgora()">
+                        <i class="fas fa-play"></i>
+                        ASSITIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="categoria">Populares na Netflix</div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="itemClicado('0')">
+                <img src="img/mini1.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('1')">
+                <img src="img/mini2.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('2')">
+                <img src="img/mini3.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('3')">
+                <img src="img/mini4.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('4')">
+                <img src="img/mini5.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('5')">
+                <img src="img/mini6.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('6')">
+                <img src="img/mini7.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('7')">
+                <img src="img/mini8.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('8')">
+                <img src="img/mini9.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('9')">
+                <img src="img/mini10.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('10')">
+                <img src="img/mini11.jpg" alt="" srcset="">
+            </div>    
+        </div>
+    </div>
+    <div class="categoria">Séries</div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="itemClicado('0')">
+                <img src="img/mini1.jpg" alt="" srcset="">
+            </div>                  
+            <div class="item" onclick="itemClicado('5')">
+                <img src="img/mini6.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('6')">
+                <img src="img/mini7.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('7')">
+                <img src="img/mini8.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('8')">
+                <img src="img/mini9.jpg" alt="" srcset="">
+            </div>        
+            <div class="item" onclick="itemClicado('10')">
+                <img src="img/mini11.jpg" alt="" srcset="">
+            </div>    
+        </div>
+    </div>
+    <div class="categoria">Filmes</div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">   
+            <div class="item" onclick="itemClicado('1')">
+                <img src="img/mini2.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('2')">
+                <img src="img/mini3.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('3')">
+                <img src="img/mini4.jpg" alt="" srcset="">
+            </div>    
+            <div class="item" onclick="itemClicado('4')">
+                <img src="img/mini5.jpg" alt="" srcset="">
+            </div>       
+            <div class="item" onclick="itemClicado('9')">
+                <img src="img/mini10.jpg" alt="" srcset="">
+            </div>       
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8c382062a6.js" crossorigin="anonymous"></script>
+    <script src="js/own/jquery.min.js"></script>
+    <script src="js/own/owl.carousel.min.js"></script>
+    <script src="js/own/setup.js"></script>
+
+</body>
+</html>
